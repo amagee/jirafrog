@@ -22,6 +22,8 @@ requires = [
     "toml~=0.10.0",
 ]
 
+[tool.flit.scripts]
+jirafrog = "jirafrog:main.main"
 
         
 
